@@ -1,0 +1,106 @@
+body{
+
+
+}
+span{
+  font-size: 3.5rem;
+  color: #000;
+}
+.navbar-brand{
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-link{
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.title{
+  background-color: #655D8A;
+  padding-bottom: 100px;
+}
+.container-fluid{
+  font-family: sans-serif;
+}
+.carousel-inner{
+  text-align: center;
+}
+
+.products{
+  margin: 100px 100px;
+  background-color: #fff;
+
+}
+
+.img{
+  width: 800px;
+  height: 500px;
+  border-radius: 100%;
+}
+
+.form{
+
+  padding: 50px 200px 200px;
+  margin-left: 450px;
+
+}
+.pad{
+  margin-right: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.signIn{
+  background-color: #CCD1E4;
+  padding-bottom: 100px;
+
+}
+.signh1{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Montserrat-black;
+  padding-top: 100px;
+}
+.button{
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media (max-width:1000px){
+  .img{
+    width: 600px;
+    height: 500px;
+  }
+}
+@media (max-width:750px){
+  .img{
+    width: 500px;
+    height: 500px;
+
+  }
+}
+
+@media (max-width:500px){
+  .img{
+    width: 400px;
+    height: 300px;
+  }
+}
+
+
+
+.card{
+  margin: 20px 30px;
+  border-radius: 30px;
+  padding: 20px 20px;
+  width: 16rem;
+}
+
+.card-img{
+  margin: 20px;
+  width: 60%;
+}
